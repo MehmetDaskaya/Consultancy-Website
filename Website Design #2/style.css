@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+body {
+  background-color: rgb(209, 209, 209) !important;
+}
+
+p {
+  text-align: left;
+  color: rgb(109, 109, 109);
+}
+
+div p a {
+  color: black;
+}
+
+div p a:hover {
+  color: rgb(101, 166, 250);
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+li a:hover {
+  color: white;
+}
+
+img {
+  width: 450px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 20% 40%;
+}
+
+li a img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 2.5rem;
+  left: 45rem;
+}
+
+h1 {
+  margin-left: 1rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+h2,
+h3 {
+  font-family: "Signika", sans-serif;
+}
+
+h6 {
+  margin-left: 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.box {
+  margin: auto;
+  position: relative;
+  width: 60rem;
+  background-color: white;
+}
+
+.main {
+  height: 65rem;
+}
+
+.footer {
+  margin: auto;
+  height: 4.5rem;
+  text-align: center;
+  top: 1rem;
+}
+
+#footertext {
+  position: relative;
+  top: 1.2rem;
+}
+
+.navbar {
+  position: absolute;
+  width: 58rem;
+  height: 3.5rem;
+  background-color: rgb(43, 207, 236);
+  font-family: "Nunito", sans-serif;
+}
+
+.image {
+  position: relative;
+  top: 1rem;
+  width: 58rem;
+  height: 20rem;
+  background: url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VzdG9tZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+}
+
+.left {
+  position: fixed;
+  align-items: flex-start;
+  margin: 0;
+  width: 28rem;
+  height: 25rem;
+  left: 1rem;
+  top: 3rem;
+}
+
+.right {
+  position: fixed;
+  align-items: flex-start;
+  margin: 0;
+  width: 28rem;
+  height: 25rem;
+  left: 2rem;
+}
+
+.bax {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+}
+
+#twitter {
+  width: 40px;
+}
+#facebook {
+  right: 450px;
+}
+
+.textbox {
+  position: relative;
+  top: 2.5rem;
+  left: 30rem;
+  opacity: 0.8;
+  width: 25rem;
+  height: 15rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.textbox:hover {
+  opacity: 0.95;
+}
+
+.textbox h3 {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.textbox p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.textbox button {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-size: 14px;
+}
